@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="bg-primary text-light p-3">
+        <!-- <h1>Mi primer proyecto con Bootstrap</h1> -->
+        <nav class="navbar navbar-expand-lg bg-primary text-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MusicArt</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Aprende!</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tienda</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sobre Nosotros
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="nosotros.html">Quienes Somos?</a></li>
+                      <li><a class="dropdown-item" href="nosotros.html">Preguntas Frecuentes</a></li>
+                      <li><a class="dropdown-item" href="nosotros.html">Contacto</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            
+            <div class="row">
+                <div class="col-lg-12 p-3 m-2"><h2>Nuestro Equipo!</h2></div>
+                <div class="card col-sm-12 col-md-6 col-lg-3 p-3 m-2" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="../img/Persona1.jpg" class="card-img-top" alt="Persona">
+                        <h3>Fernando - Dpto. de Instrumentos</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  <div class="card col-lg-3 p-3 m-2" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="../img/Persona2.jpeg" class="card-img-top" alt="Persona">
+                        <h3>Carla - Dpto. de Marketing</h3>
+                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  <div class="card col-lg-3 p-3 m-2" style="width: 18rem;"> 
+                    <div class="card-body">
+                        <img src="../img/Persona3.webp" class="card-img-top" alt="Persona">
+                        <h3>Jessica - Dpto. de Ventas y Redes</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  <div class="card col-lg-3 p-3 m-2" style="width: 18rem;"> 
+                    <div class="card-body">
+                        <img src="../img/Persona5.jpeg" class="card-img-top" alt="Persona">
+                        <h3>Carlos - Dpto. de Educacion</h3>
+                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+                
+        </section>
+        <section>
+            <h2 id="preguntasFrecuentes">Preguntas Frecuentes</h2>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Los productos son nuevos?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      Cuales son los medios de pago?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      Hacen envios a domicilio?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+    <footer class="bg-secondary p-3 text-light">
+        <div class="mx-auto">
+            <h4 class="">Redes Sociales</h4>
+            <div class=""><a href="https://www.instagram.com" target="_blank">Instagram</a></div>
+            <div class=""><a href="https://www.facebook.com" target="_blank">Facebook</a></div>
+            <div class=""><a href="https://www.twitter.com" target="_blank">Twitter</a></div>
+        </div>
+    </footer>
+     <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

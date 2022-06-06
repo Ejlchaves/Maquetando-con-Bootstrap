@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Maquetando con Bootstrap</title>
+</head>
+<body>
+    <header class="bg-secondary p-3">
+        <!-- <h1>Mi primer proyecto con Bootstrap</h1> -->
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MusicArt</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Aprende!</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tienda</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sobre Nosotros
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./secciones/nosotros.html">Quienes Somos?</a></li>
+                      <li><a class="dropdown-item" href="./secciones/nosotros.html">Preguntas Frecuentes</a></li>
+                      <li><a class="dropdown-item" href="./secciones/nosotros.html">Contacto</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleSlidesOnly" class="carousel slide mb-3" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/Instrumento1.webp" class="d-block w-100" alt="Instrumento">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/Instrumento2.jpeg" class="d-block w-100" alt="Instrumento">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/Instrumento3.webp" class="d-block w-100" alt="Instrumento">
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section>
+                <h2>Titulo 1</h2>
+                <p class="lead p-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum voluptatem ab pariatur incidunt, sapiente quos maxime obcaecati nulla magni. Ad dolor eaque enim ab earum facilis velit mollitia necessitatibus quod ea nihil aut placeat, est quam tenetur sapiente consequatur porro? Tempore, est recusandae quasi eos nemo harum excepturi ad. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse aspernatur distinctio, recusandae quod a illo dicta suscipit repellat autem accusantium ab, molestias quam. Id quos illo temporibus harum, itaque fugit?
+                </p>
+        </section>
+        <br>
+        <section>
+                <h2>Titulo 2</h2>
+                <p class="lead p-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vitae, earum vel cum delectus ut odit aliquid atque quo tenetur molestiae itaque illum sit voluptates corporis velit officia nesciunt facilis suscipit. Magni enim iste inventore tempora, perspiciatis earum praesentium recusandae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam tenetur porro ex debitis exercitationem neque iusto reiciendis tempora dolores saepe.
+                </p>
+        </section>
+        <section>
+                <h2>Titulo 3</h2>
+                <p class="lead p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A nobis adipisci commodi? Deserunt delectus nulla sapiente debitis modi in temporibus.</p>
+                <table class="table table-dark table-striped table-hover ">
+                <thead>
+                    <tr>
+                      <th scope="col">Posicion</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Apellido</th>
+                      <th scope="col">Puntaje</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Marcelo</td>
+                      <td>Otto</td>
+                      <td>3220</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Ricardo</td>
+                      <td>Thornton</td>
+                      <td>2560</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>1890</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+<!--               <div class="dropdown">
+                <a class="btn btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+              
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="http://www.google.com.ar" target="_blank">Google</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+
+              <br><br>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Su informacion no sera compartida.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form> -->
+        </section>
+
+
+    </main>
+    <br>
+    <footer class="bg-secondary p-3 text-light">
+        <div class="row mx-auto">
+            <h4 class="">Redes Sociales</h4>
+            <div class=""><a href="https://www.instagram.com" target="_blank">Instagram</a></div>
+            <div class=""><a href="https://www.facebook.com" target="_blank">Facebook</a></div>
+            <div class=""><a href="https://www.twitter.com" target="_blank">Twitter</a></div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

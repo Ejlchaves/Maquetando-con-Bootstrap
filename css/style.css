@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.mx-auto {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
